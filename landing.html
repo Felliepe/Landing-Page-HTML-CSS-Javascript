@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header id="event-description">
+      <div class="disclaimer">
+        <h2>Web Development</h2>
+        <p class="about-event">
+          Aprenda desenvolvimento Web do zero ao nível avançado com os principais especialistas na área
+        </p>
+        <p>Data:</p>
+        <p class="event-date">sexta, 10 de Janeiro</p>
+      </div>
+      <div class="subscription-form">
+        <p>Preencha o formulário</p>
+        <form class="form-group">
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" placeholder="Digite seu nome" 
+            required /> <!-- "required" para não ser enviado sem que o dado esteja preenchido -->
+          
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" 
+            required />
+          
+            <label for="phone">Telefone</label>
+            <input type="text" id="phone" name="phone" placeholder="Número de Whatsapp" 
+            required />
+          
+            <label for="interest">Interesse</label>
+            <select id="interest" name="interest"> 
+              <option value="" disabled selected>Selecione</option> <!-- "disabled selected" faz com o usuário use uma das opções -->
+              <option value="Front">Front End Developer</option>
+              <option value="Back">Back End Developer</option>
+              <option value="Full">Full Stack Developer</option>
+            </select> 
+          <input type="submit" class="btn" value="Inscrever" />
+        </form>
+    </header>
+    <section id="key-benefits">
+      <h2>O que você vai aprender:</h2>
+      <div class="benefits">
+        <div class="benefit">
+          <div id="benefit-1" class="benefit-img"></div>
+          <p>
+            React é uma biblioteca JavaScript declarativa, eficiente e flexível
+            para criar interfaces do usuário (UI). É mantido pelo Facebook
+          </p>
+        </div>
+        <div class="benefit">
+          <div id="benefit-2" class="benefit-img"></div>
+          <p>
+            A Web é um recurso público global que pode ser acessado por qualquer pessoa com uma conexão à Internet e um software de navegador
+          </p>
+        </div>
+        <div class="benefit">
+          <div id="benefit-3" class="benefit-img"></div>
+          <p>
+            Um evento de desenvolvimento web é uma ótima oportunidade para aprender sobre as mais recentes tecnologias e ferramentas de desenvolvimento front-end web!
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="location">
+      <div class="address">
+        <i class="bi bi-geo-alt-fill"></i>
+        <div class="address-details">
+          <p>Rua dos programadores</p>
+          <p>Bairro Javascript</p>
+          <p>Abertura: 14:00 Hrs</p>
+        </div>
+      </div>
+      <div class="about-location">
+        <h3>Local</h3>
+        <p>World Wide Web</p>
+      </div>
+    </section>
+    <section id="details">
+      <div class="detail" id="detail-1">
+        <img src="images/img9.jpg" alt="erro-404" />
+        <div class="detail-description">
+          <h3>Conheça os professores: </h3>
+        </div>
+      </div>
+      <div class="detail" id="detail-2">
+        <div class="detail-description">
+          <h3>Cybersecurity Threats</h3>
+          <ul>
+            <li>Professor Felipe</strong></li>
+            <li>Especialidade em PHP</li>
+            <li>Software engineer</li>
+          </ul>
+        </div>
+        <img src="images/img8.jpg" alt="erro-404" />
+      </div>
+      <div class="detail" id="detail-3">
+        <img src="images/img6.jpg" alt="erro-404" />
+        <div class="detail-description">
+          <h3>Machine Learning</h3>
+          <ul>
+            <li>Professor Linus Torvalds</li>
+            <li>Especialista em Python</li>
+            <li>Software Developer</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="cta">
+      <h3>Participe</h3>
+      <button class="btn">Solicite Contato</button>
+    </section>
+    <footer id="footer">
+      <h3>Felipe Gustavo</h3>
+      <p>Caso sua dúvida não esteja aqui, basta nos contatar</p>
+      <p><span>Entre em contato:</span> felipe.gustavo@my.com</p>
+      <p><span>Ou pelo tel:</span> (43) 984775888</p>
+    </footer>
+    <script src="page.js"></script>
+  </body>
+</html>
